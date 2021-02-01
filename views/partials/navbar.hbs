@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="scss/header.css">
+<div class="header">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-white bg-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span><img src="image/menu%20copy.png" alt=""></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="image/Group.png" alt=""></a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    {{#if eKurslar}}
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/kurslar">Kurslar</a>
+                    </li>
+                    {{else}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/kurslar">Kurslar</a>
+                    </li>
+                    {{/if}}
+                    {{#if eBolimlar}}
+                    <li class="nav-item active mx-lg-1">
+                        <a class="nav-link" href="/bolimlar">Bolimlar</a>
+                    </li>
+                    {{else}}
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link" href="/bolimlar">Bolimlar</a>
+                    </li>
+                    {{/if}}
+                    {{#if eTopshiriqlar}}
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/topshiriqlar">Topshiriqlar</a>
+                    </li>
+                    {{else}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/topshiriqlar">Topshiriqlar</a>
+                    </li>
+                    {{/if}}
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btnA"><img class="sss" src="image/search.png" alt=""></button>
+                    <button class="btn btnA"><img class="sss" src="image/bell.png" alt=""></button>
+                    <img class="sss ml-1" src="image/image.png" alt="">
+                    <dl class="ml-lg-3">
+                        <dt>Azizxon Jalilov</dt>
+                        <dd>Tarif: 6 oy | 22. 11. 2020</dd>
+                    </dl>
+                    <div class="dropdown">
+                        <button class="btn" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="" src="image/Group%203.png" alt="">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="/dashboard">Sozlamalar</a>
+                            <a class="dropdown-item" href="/tolovlar">To'lovlar</a>
+                            <a class="dropdown-item" href="#">Chiqish</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+.nav-item{
+    border-bottom: 1px solid transparent;
+}
+.active{
+    color: red !important;
+    border-bottom:5px solid red;
+}

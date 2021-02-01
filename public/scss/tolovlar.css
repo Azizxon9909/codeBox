@@ -1,0 +1,116 @@
+.section {
+  background-color: #ececec;
+}
+
+.section .hisob {
+  background-color: #008e01;
+  color: white;
+  border-radius: 5px;
+  height: 110px;
+  width: 350px;
+  float: right;
+  -webkit-box-shadow: 0px 10px 20px gray;
+          box-shadow: 0px 10px 20px gray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.section .hisob:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.section .hisob p {
+  margin: 10px;
+}
+
+.section .hisob h1 {
+  margin-left: 120px;
+  margin-top: 25px;
+}
+
+.section form {
+  border: 1px solid #cbcbcb;
+  padding: 10px 30px 10px 30px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.section form input {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section form label {
+  margin: 0 !important;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.section form .form-control {
+  padding: 0 !important;
+}
+
+.section form .form-group {
+  margin: 10 !important;
+}
+
+.section form hr {
+  margin: 0;
+}
+
+.section p {
+  margin: 0;
+}
+
+.section .col-lg-5 {
+  padding: 0;
+}
+
+.section .bew {
+  font-size: 30px;
+}
+
+.section .uzs {
+  font-size: 17px;
+}
+
+.section .yellow {
+  width: 15px;
+  height: 7px;
+  background-color: #ff9d00;
+  float: left;
+  margin-top: 9px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.section .blue {
+  width: 15px;
+  height: 7px;
+  background-color: blue;
+  float: left;
+  margin-top: 9px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.section .box1 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 10px solid #269c26;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.section .box1:hover {
+  background-color: lightgray;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+/*# sourceMappingURL=tolovlar.css.map */

@@ -1,0 +1,109 @@
+section{
+  background-color: #efefef;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.section1{
+  input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  label{
+    margin: 0 !important;
+    color: darkgreen;
+    font-weight: bold;
+  }
+  .form-control{
+    padding: 0 !important;
+  }
+  .form-group{
+    margin: 0 !important;
+  }
+  hr{
+    margin: 0;
+  }
+  form{
+    border: 1px solid #cbcbcb;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .container{
+    padding-top: 100px;
+  }
+}
+.section3{
+  .card{
+    height: 100%;
+    transition: 0.6s;
+  }
+  .card-header{
+    transition: 0.3s;
+  }
+  .ex{
+    color: gray;
+  }
+  .card:hover{
+    box-shadow: 1px 5px 10px #c4c4c4;
+    .card-header{
+      background-color: #c6ffb0;
+    }
+  }
+}
+.section5{
+  .box{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    border-top: 10px solid transparent;
+    h1,h2{
+      font-weight: bold;
+    }
+    transition: 0.7s;
+  }
+  .box:hover{
+    border-top: 10px solid green;
+    box-shadow: 1px 5px 10px #d3d3d3;
+  }
+}
+.section6{
+  .fikr{
+    background-color: whitesmoke;
+    box-shadow: 1px 10px 10px #bfbfbf;
+    width: 1000px;
+    margin: auto;
+  }
+  p,h6{
+    text-align: center;
+  }
+  .aaa{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 50px;
+  }
+  .ccc{
+    margin-top: -60px;
+    position: absolute;
+    margin-left: 900px;
+  }
+  .bbb{
+    //margin-top: -80px;
+    margin-left: 420px;
+  }
+
+  li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #0c8700;
+    margin-left: 50px;
+  }
+}
+
+
+

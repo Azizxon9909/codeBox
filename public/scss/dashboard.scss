@@ -1,0 +1,70 @@
+.section2 {
+    height: 88vh;
+  background: #eeeeee;
+  box-shadow: 0px 10px 20px lightgray;
+  form{
+    
+        border: 1px solid #cbcbcb;
+        padding: 10px 30px 10px 30px;
+        border-radius: 15px;
+        background-color: white;
+      }
+    input{
+        border: none;
+        outline: none;
+        box-shadow: none;
+      }
+      label{
+        margin: 0 !important;
+        color: darkgreen;
+        font-weight: bold;
+      }
+      .form-control{
+        padding: 0 !important;
+      }
+      .form-group{
+        margin: 0 !important;
+      }
+      hr{
+        margin: 0;
+      }
+  }
+  
+  .rasm {
+    background-image: linear-gradient(180deg,  rgba(219, 218, 218, 0),black ),url("../image/man.png");
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+  }
+  .qora img {
+    margin-top: 70px;
+    margin-left: 40px;
+    width: 30px;
+  }
+  
+  .hisob {
+    background-color: #008e01;
+    color: white;
+    border-radius: 5px;
+    height: 110px;
+    width: 350px;
+    float: right;
+    box-shadow: 0px 10px 20px gray;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .hisob:hover {
+    transform: translateY(-5px);
+  }
+  .hisob p {
+    margin: 10px;
+  }
+
+
+  .hisob h1 {
+    margin-left: 120px;
+    margin-top: 25px;
+  }

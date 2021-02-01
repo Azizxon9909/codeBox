@@ -1,0 +1,61 @@
+.header .navbar {
+  padding: 0;
+}
+
+.header .active {
+  border-bottom: 3px solid green;
+}
+
+.header img {
+  cursor: pointer;
+}
+
+.header .btnA {
+  border: 1px solid lightgray;
+}
+
+.header a {
+  color: black;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 18px;
+}
+
+.header a:hover {
+  border-bottom: 3px solid green;
+}
+
+.header dd {
+  margin: 0;
+  color: gray;
+}
+
+.header dl {
+  margin: 0;
+}
+
+.footer {
+  background-color: #0b414c;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer p {
+  color: white;
+  margin: 5px;
+}
+
+.footer .badge {
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.footer .badge:hover {
+  background-color: orangered;
+}
+/*# sourceMappingURL=header.css.map */

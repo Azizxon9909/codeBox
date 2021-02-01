@@ -1,0 +1,96 @@
+section{
+  background-color: #efefef;
+}
+
+.section1{
+  table{
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 5px 10px #bdbdbd;
+    border-radius: 5px;
+    td{
+      padding: 30px;
+    }
+    h6{
+      color: red;
+      img{
+        width: 15px;
+      }
+    }
+    p{
+      margin: 0;
+    }
+  }
+  h1{
+    text-align: center;
+  }
+  .hh{
+    color: green !important;
+  }
+  .quti{
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    box-shadow: 1px 5px 10px #b8b8b8;
+    border-radius: 7px;
+  }
+  .badge{
+    height: 10px;
+    width: 50px;
+    margin-top: 15px;
+    color: transparent;
+  }
+  hr{
+    margin: 5px;
+  }
+  .agar{
+    font-size: 13px;
+  }
+  .das{
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+  }
+  .lg4{
+    padding: 0;
+  }
+}
+.section2{
+  .card{
+    height: 100%;
+  }
+  .ex{
+    color: gray;
+  }
+}
+.section3{
+  .card{
+    transition: 0.6s;
+  }
+  .card-header{
+    transition: 0.3s;
+  }
+.card:hover{
+  box-shadow: 1px 5px 10px #c4c4c4;
+  .card-header{
+    background-color: #c6ffb0;
+  }
+}
+  .badge{
+    background-image: linear-gradient(to right, red , yellow);
+    height: 10px;
+    width: 150px;
+    color: transparent;
+  }
+  .r{
+    width: 170px;
+  }
+  .q{
+    width: 110px;
+  }
+  .w{
+    width: 250px;
+  }
+  .e{
+    width: 50px;
+  }
+}

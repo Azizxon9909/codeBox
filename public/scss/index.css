@@ -1,0 +1,125 @@
+section {
+  background-color: #efefef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section1 input {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section1 label {
+  margin: 0 !important;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.section1 .form-control {
+  padding: 0 !important;
+}
+
+.section1 .form-group {
+  margin: 0 !important;
+}
+
+.section1 hr {
+  margin: 0;
+}
+
+.section1 form {
+  border: 1px solid #cbcbcb;
+  padding: 10px 30px 10px 30px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.section1 .container {
+  padding-top: 100px;
+}
+
+.section3 .card {
+  height: 100%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.section3 .card-header {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section3 .ex {
+  color: gray;
+}
+
+.section3 .card:hover {
+  -webkit-box-shadow: 1px 5px 10px #c4c4c4;
+          box-shadow: 1px 5px 10px #c4c4c4;
+}
+
+.section3 .card:hover .card-header {
+  background-color: #c6ffb0;
+}
+
+.section5 .box {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+  border-top: 10px solid transparent;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.section5 .box h1, .section5 .box h2 {
+  font-weight: bold;
+}
+
+.section5 .box:hover {
+  border-top: 10px solid green;
+  -webkit-box-shadow: 1px 5px 10px #d3d3d3;
+          box-shadow: 1px 5px 10px #d3d3d3;
+}
+
+.section6 .fikr {
+  background-color: whitesmoke;
+  -webkit-box-shadow: 1px 10px 10px #bfbfbf;
+          box-shadow: 1px 10px 10px #bfbfbf;
+  width: 1000px;
+  margin: auto;
+}
+
+.section6 p, .section6 h6 {
+  text-align: center;
+}
+
+.section6 .aaa {
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 50px;
+}
+
+.section6 .ccc {
+  margin-top: -60px;
+  position: absolute;
+  margin-left: 900px;
+}
+
+.section6 .bbb {
+  margin-left: 420px;
+}
+
+.section6 li {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #0c8700;
+  margin-left: 50px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,73 @@
+section {
+  background-color: #efefef;
+}
+
+.section1 table {
+  background-color: white;
+  text-align: center;
+  -webkit-box-shadow: 1px 5px 10px #bdbdbd;
+          box-shadow: 1px 5px 10px #bdbdbd;
+  border-radius: 5px;
+}
+
+.section1 table td {
+  padding: 30px;
+}
+
+.section1 table h6 {
+  color: red;
+}
+
+.section1 table h6 img {
+  width: 15px;
+}
+
+.section1 table p {
+  margin: 0;
+}
+
+.section1 h1 {
+  text-align: center;
+}
+
+.section1 .box {
+  padding-top: 35%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: white;
+  text-align: center;
+  height: 300px;
+  -webkit-box-shadow: 1px 5px 10px #bdbdbd;
+          box-shadow: 1px 5px 10px #bdbdbd;
+  border-radius: 5px;
+}
+
+.section1 .box:hover {
+  background-color: rgba(68, 252, 0, 0.38);
+  cursor: pointer;
+}
+
+.section2 .card {
+  height: 100%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.section2 .card-header {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section2 .ex {
+  color: gray;
+}
+
+.section2 .card:hover {
+  -webkit-box-shadow: 1px 5px 10px #c4c4c4;
+          box-shadow: 1px 5px 10px #c4c4c4;
+}
+
+.section2 .card:hover .card-header {
+  background-color: #c6ffb0;
+}
+/*# sourceMappingURL=index2.css.map */
