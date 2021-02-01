@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const port = 3000;
 const path = require("path");
 const exhb = require("express-handlebars");
 
@@ -30,6 +29,7 @@ app.use(rDashboard)
 app.use(rTolovlar)
 app.use(rXato)
 
+let port = process.env.PORT || '3000';
 app.listen(port, () => {
   console.log(`server http://localhost:${port}/ portda ishladi`);
 });
